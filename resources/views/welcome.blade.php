@@ -32,7 +32,7 @@
 									<li class="hassubs active">
 										<a href="index.html">Home</a>
 										<ul>
-											<li><a href="categories.html">Categories</a></li>
+											<li><a href="{{ route('categories.index') }}">Categories</a></li>
 											<li><a href="product.html">Product</a></li>
 											<li><a href="cart.html">Cart</a></li>
 											<li><a href="checkout.html">Check out</a></li>
