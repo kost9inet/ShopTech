@@ -30,34 +30,24 @@
 							<nav class="main_nav">
 								<ul>
 									<li class="hassubs active">
-										<a href="index.html">Home</a>
+										<a href="{{ route('homes.index') }}">Home</a>
 										<ul>
 											<li><a href="{{ route('categories.index') }}">Categories</a></li>
-											<li><a href="product.html">Product</a></li>
-											<li><a href="cart.html">Cart</a></li>
-											<li><a href="checkout.html">Check out</a></li>
-											<li><a href="contact.html">Contact</a></li>
+											<li><a href="{{ route('product.index') }}">Product</a></li>
+											<li><a href="{{ route('checkout.index') }}">Check out</a></li>
+											<li><a href="{{ route('contact.index') }}">Contact</a></li>
 											<li><a class="nav-link" href="http://127.0.0.1:8000/login">Login</a></li>
 										</ul>
 									</li>
-									<li class="hassubs">
-										<a href="categories.html">Categories</a>
-										<ul>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-											<li><a href="categories.html">Category</a></li>
-										</ul>
-									</li>
+									
 									<li><a href="#">Accessories</a></li>
-									<li><a href="#">Offers</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="{{ route('offers.index') }}">Offers</a></li>
+									<li><a href="{{ route('contact.index') }}">Contact</a></li>
 								</ul>
 							</nav>
 							<div class="header_extra ml-auto">
 								<div class="shopping_cart">
-									<a href="cart.html">
+									<a href="{{ route('cart.index') }}">
 										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 												 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
 											<g>
@@ -118,10 +108,8 @@
 		<!-- Social -->
 		<div class="header_social">
 			<ul>
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a class="nav-link" href="http://127.0.0.1:8000/login">Login</a></li>
+			<li><a class="nav-link" href="http://127.0.0.1:8000/register">Registration</a></li>
 			</ul>
 		</div>
 	</header>
